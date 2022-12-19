@@ -3,9 +3,9 @@
 
  ## Integrantes
 
- * Oli
- * Oli
- * Oli
+ * Oli1
+ * Oli2
+ * Oli3
 
 > "En un abrir y cerrar de ojos se descalzó, se metió las medias en los bolsillos y 
 se colgó al hombro los zapatos de lona, atándolos por los cordones. Cogió un 
