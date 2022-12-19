@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+:root{
+    --text-color: #f53942;
+    --bg-color: #000000;
+    --color-secundario: #F9B64B;
+    --color-terciario: #9feaed;
+    --color-cuaternario:#281200;
+    --color-quinternario: #f2f2f2c2;
+    --color-sexternario:#00ffd9d3;
+    --color-senternario:#ce0a00f3;
+}
+body{
+    font-family: 'Paytone One', sans-serif;
+    background-image: url(https://i.pinimg.com/564x/7f/29/f2/7f29f2f2ad44eb276978751e85428e2e.jpg);
+    background-repeat: repeat;
+    text-align: center;
+}
+.contenedor{
+    margin-top: 40px;
+    width: 55%;
+    margin-left: 24%;
+    box-shadow:  0 8px 10px rgb(14, 2, 2);
+    background-color: var(--color-quinternario);
+}
+#contenedor__elemento{
+    border: 1px dashed var(--bg-color);
+    height: 710px;
+}
+.subcontenedor_marca{
+    border: 4px dashed var(--bg-color);
+    background-color: var(--color-secundario);
+    color: black;
+    margin: 0px;
+    font-size: 30px;
+    border-radius: 5;
+    display: block;
+}
+.subContenedor__titulo{
+    font-size: 40px;
+    padding: 5px;
+    color: black;
+}
+#subContenedor__pregunta{
+    color: black;
+    font-size: 22px;
+}
+.subContenedor__opciones{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 1rem auto;
+}
+.subContenedor2{
+    margin-top: 50px;
+}
+.subContenedor3{
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+}
+.boton1{
+    border-radius: 10px;
+    font-weight: 800;
+    margin: 10px auto;
+    width: 40%;
+    padding: 15px 10px;
+    text-decoration: none;
+    border: 1px solid var(--color-cuaternario);
+    color: black;
+    background-color: var(--text-color);
+}
+.boton1:hover{
+    color: #000;
+    background-color: var(--color-senternario);
+}
+.boton2{
+    color: black;
+    background-color: var(--text-color);
+    border: 1px solid var(--color-cuaternario);
+    border-radius: 10px;
+    font-weight: 800;
+    margin: 10px auto;
+    width: 40%;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+.boton2:hover{
+    background-color: var(--color-senternario);
+    color: #000;
+}
+/*javascript es subContenedor__opcion*/
+.subContenedor__opcion{
+    margin: 1rem;
+    line-height: 2rem;
+    outline: none;
+    background-color: var(--color-terciario);
+    color: black;
+}
+.subContenedor__opcion:hover{
+    background-color: var(--color-sexternario);
+    color: #000;
+}

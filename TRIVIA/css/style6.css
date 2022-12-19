@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+:root{
+    --text-color: #a6bbf1;
+    --bg-color: #feffe4f0 ;
+    --color-secundario:  #ffc4ed9d ;
+    --color-terciario: #ff9e27dd ;
+    --color-cuaternario: #261201;
+    --color-quinternario: #C2C2B6;
+    --color-sexternario:  #f4ffdb;
+}
+body{
+    font-family: 'Paytone One', sans-serif;
+    background-image: url(https://i.pinimg.com/564x/29/46/75/294675941a2e635c9a22b01ed9ec3e05.jpg);
+    background-repeat: repeat;
+    text-align: center;
+}
+.contenedor{
+    margin-top: 40px;
+    width: 55%;
+    margin-left: 24%;
+    box-shadow:  0 8px 10px rgb(0, 0, 0);
+    background-color: var(--color-secundario);
+}
+#contenedor__elemento{
+    border: 1px dashed var(--color-cuaternario);
+    height: 710px;
+}
+.subcontenedor_marca{
+    border: 4px dashed var(--color-cuaternario);
+    background-color: var(--text-color);
+    color: black;
+    margin: 0px;
+    font-size: 30px;
+    border-radius: 5;
+    display: block;
+}
+.subContenedor__titulo{
+    font-size: 40px;
+    padding: 5px;
+    color: black;
+}
+.subContenedor__texto{
+    color: black;
+    font-size: 22px;
+}
+.subContenedor2{
+    margin-top: 60px;
+
+}
+.subContenedor3{
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+}
+.boton1{
+    border-radius: 10px;
+    font-weight: 800;
+    margin: 10px auto;
+    width: 40%;
+    padding: 15px 10px;
+    text-decoration: none;
+    border: 1px solid var(--color-cuaternario);
+    color: black;
+    background-color: var(--bg-color);
+}
+.boton1:hover{
+    color: rgb(5, 3, 3);
+    background-color: var(--color-terciario);
+}
+.boton2{
+    color: black;
+    background-color: var(--bg-color);
+    border: 1px solid var(--color-cuaternario);
+    border-radius: 10px;
+    font-weight: 800;
+    margin: 10px auto;
+    width: 40%;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+.boton2:hover{
+    background-color: var(--color-terciario);
+    color: rgb(10, 0, 0);
+}
+.imagenFinal{
+    width: 250px;
+    margin-top: 20px;
+}

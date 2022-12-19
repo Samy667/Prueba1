@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+:root{
+    --text-color: #87D1D2;
+    --bg-color: #D3D925;
+    --color-secundario: #F2BB16 ;
+    --color-terciario: #ffe1dbb6;
+    --color-cuaternario: #ff5e5ee1;
+}
+body{
+    font-family: 'Paytone One', sans-serif;
+    background-image: url(https://media.istockphoto.com/id/537667771/es/vector/iconos-de-m%C3%BAsica-de-salsa-instrumentos-y-de-blue-back.jpg?s=612x612&w=0&k=20&c=gQlkgj47svhaRfJiBkTV1WVD4G2sEK1AVc-uwUibdF8=);
+    background-repeat: repeat;
+    text-align: center;
+}
+.contenedor{
+    margin-top: 40px;
+    width: 55%;
+    margin-left: 24%;
+    box-shadow:  0 8px 10px rgb(0, 0, 0);
+    background-color: var(--color-terciario);
+}
+#contenedor__elemento{
+    border: 1px dashed black;
+    height: 715px;
+}
+.subcontenedor_marca{
+    border: 4px dashed black;
+    background-color: var(--color-secundario);
+    color: black;
+    margin: 0px;
+    font-size: 30px;
+    border-radius: 5;
+    display: block;
+}
+.subContenedor__titulo{
+    font-size: 40px;
+    padding: 5px;
+    color: black;
+}
+#subContenedor__pregunta{
+    color: black;
+    text-align: center;
+    font-size: 22px;
+}
+.subContenedor__opciones{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 1rem auto;
+}
+.subContenedor2{
+    margin-top: 50px;
+}
+.subContenedor3{
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+}
+.boton1{
+    border-radius: 10px;
+    font-weight: 800;
+    margin: 10px auto;
+    width: 40%;
+    padding: 15px 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    background-color: var(--bg-color);
+}
+.boton1:hover{
+    color: #000;
+    background-color: var(--text-color);
+}
+.boton2{
+    color: black;
+    background-color: var(--bg-color);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 800;
+    margin: 10px auto;
+    width: 40%;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+.boton2:hover{
+    background-color: var(--text-color);
+    color: #000;
+}
+/*javascript es subContenedor__opcion*/
+.subContenedor__opcion{
+    margin: 1rem;
+    line-height: 2rem;
+    border: 1px solid black;
+    outline: none;
+    background-color: var(--color-cuaternario);
+    color: black;
+}
+.subContenedor__opcion:hover{
+    background-color: var(--text-color);
+    color: #000;
+}

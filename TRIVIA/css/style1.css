@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+:root{
+    --text-color: #ff649d;
+    --bg-color: #000000;
+    --color-secundario: #ffffffb0 ;
+    --color-terciario: #3c8581;
+    --color-cuaternario: #f75748;
+}
+body{
+    font-family: 'Paytone One', sans-serif;
+    background-image: url(https://img.freepik.com/vector-premium/simbolos-notas-musicales-patron-vectorial-signos-notacion-canciones-remolinos-concepto-musica-radio-signos-simbolos-notas-retro-fondo-plano-tarjeta-cumpleanos_606575-267.jpg?w=2000);
+    background-repeat: repeat;
+    text-align: center;
+}
+.contenedor{
+    margin-top: 40px;
+    width: 55%;
+    margin-left: 24%;
+    box-shadow:  0 8px 10px rgb(0, 0, 0);
+    background-color: var(--color-secundario);
+}
+#contenedor__elemento{
+    border: 1px dashed var(--bg-color);
+    height: 710px;
+}
+.subcontenedor_marca{
+    border: 4px dashed var(--bg-color);
+    background-color: var(--text-color);
+    color: black;
+    margin: 0px;
+    font-size: 30px;
+    border-radius: 5;
+    display: block;
+}
+.subContenedor__titulo{
+    font-size: 40px;
+    padding: 5px;
+    color: black;
+}
+.subContenedor__texto{
+    color: black;
+    font-size: 21px;
+}
+.subContenedor2{
+    margin-top: 80px;
+}
+.subContenedor3{
+    text-align: center;
+}
+.name{
+    border-radius: 0px;
+    font-weight: 800;
+    padding: 15px 10px;
+    margin: 10px 0;
+    width: 70%;
+    text-align: center;
+    border: 2px solid black;
+    background-color: var(--color-terciario);
+    font-size: 20px;
+}
+.name:hover{
+    color: black;
+    background-color: var(--color-terciario);
+}
+::placeholder { color: white; 
+font-family: 'Courier New', Courier, monospace;
+}
+.boton1{
+    border-radius: 10px;
+    font-weight: 800;
+    margin: 10px auto;
+    padding: 14px 21px;
+    width: 40%;
+    text-decoration: none;
+    border: 1px solid #421A01;
+    color: black;
+    background-color: var(--text-color);
+}
+.boton1:hover{
+    background-color: var(--color-cuaternario);
+    color: black;
+}

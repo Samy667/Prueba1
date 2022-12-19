@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Playfair+Display:ital,wght@1,500&display=swap');
+
+:root{
+    --text-color: #DFC9B2;
+    --bg-color: #fff4e6ac;
+    --color-secundario: #74462F;
+    --color-terciario: #ff967f;
+    --color-cuaternario:#ffa19d;
+}
+body{
+    font-family: 'Paytone One', sans-serif;
+    background-image: url(https://i.pinimg.com/564x/b5/2d/08/b52d08c1e2534de88c04abc44b8f3b00.jpg);
+    background-repeat: repeat;
+    text-align: center;
+}
+.contenedor{
+    margin-top: 40px;
+    width: 55%;
+    margin-left: 24%;
+    box-shadow:  0 8px 10px rgb(14, 2, 2);
+    background-color: var(--bg-color);
+    display: grid;
+}
+#contenedor__elemento{
+    border: 1px dashed var(--text-color);
+    height: 710px;
+}
+.subcontenedor_marca{
+    border: 4px dashed var(--color-secundario);
+    background-color: var(--color-terciario);
+    color: black;
+    margin: 0px;
+    font-size: 30px;
+    border-radius: 5;
+    display: block;
+}
+.subContenedor__titulo{
+    font-size: 40px;
+    padding: 5px;
+    color: black;
+}
+.subContenedor__texto1{
+    color: black;
+    font-size: 22px;
+    margin-top: 40px;
+    text-align: center;
+    display: block;
+}
+.subContenedor__texto2{
+    color: black;
+    font-size: 22px;
+    margin-top: 35px;
+}
+.subContenedor2{
+    margin-top: 70px;
+    display: flow-root;
+}
+.subContenedor3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+}
+.boton1{
+    border-radius: 10px;
+    font-weight: 800;
+    margin: 10px auto;
+    width: 40%;
+    padding: 15px 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    background-color: var(--color-terciario);
+}
+.boton1:hover{
+    color: #000;
+    background-color: var(--color-cuaternario);
+}
+.boton2{
+    color: black;
+    background-color: var(--color-terciario);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 800;
+    margin: 10px auto;
+    width: 40%;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+.boton2:hover{
+    background-color: var(--color-cuaternario);
+    color: #000;
+}
+.boton3{
+    color: black;
+    background-color: var(--color-terciario);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: 800;
+    margin: 10px auto;
+    width: 40%;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+.boton3:hover{
+    background-color: var(--color-cuaternario);
+    color: #000;
+}
